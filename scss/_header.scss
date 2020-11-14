@@ -1,0 +1,27 @@
+
+.edie__title {
+    @include font;
+    font-family: Heebo;
+}
+
+
+.edie__list {
+   list-style: $list-style;
+   display: flex;
+   
+   
+
+   &__anchore {
+    text-decoration: $text-decoration;
+    color: $color;
+    @include combinationfont;
+    margin: $margin;
+  }
+
+
+}
+
+.bar {
+    width: 20px;
+}
+
