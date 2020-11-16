@@ -39,19 +39,20 @@ body {
   margin-inline-start: calc(1rem * -2);
   margin-inline-end: calc(1rem * -4); }
 
-.edie__secondsection__anchore--edit {
+.edie__secondsection__svg--edit {
   background-color: #2D9CDB;
-  padding: 1rem;
+  padding: calc(1rem / 2);
   border-radius: 10px; }
 
-.edie__secondsection__anchore--chevron {
+.edie__secondsection__svg--chevron {
   background-color: #27AE60;
   padding: 1rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+  width: 10px; }
 
-.edie__secondsection__anchore--menu {
+.edie__secondsection__svg--menu {
   background-color: #EB5757;
-  padding: 1rem;
+  padding: calc(1rem / 2);
   border-radius: 10px; }
 
 .edie__title {
@@ -122,3 +123,41 @@ body {
     background: #F2F2F2;
     border-radius: 12px;
     border: none; }
+
+.edie__secondsection__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin: calc(1rem + 0.5rem); }
+
+.edie__secondsection__desing, .edie__secondsection__frontend, .edie__secondsection__backend {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem; }
+  .edie__secondsection__desing--startnbtn, .edie__secondsection__frontend--startnbtn, .edie__secondsection__backend--startnbtn {
+    border: none;
+    background-color: #E0E0E0;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px; }
+  .edie__secondsection__desing--subtitle, .edie__secondsection__frontend--subtitle, .edie__secondsection__backend--subtitle {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px; }
+  .edie__secondsection__desing--moreInfo, .edie__secondsection__frontend--moreInfo, .edie__secondsection__backend--moreInfo {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; }
+
+.edie__secondsection__desing:hover, .edie__secondsection__backend:hover, .edie__secondsection__frontend:hover {
+  box-shadow: 1px 5px 5px 10px #cecdcd; }
+  .edie__secondsection__desing:hover--startnbtn, .edie__secondsection__backend:hover--startnbtn, .edie__secondsection__frontend:hover--startnbtn {
+    background-color: #2D9CDB;
+    color: #ffff; }

@@ -8,20 +8,23 @@
 
  
 
-    .edie__secondsection__anchore--edit {
+    .edie__secondsection__svg--edit {
         background-color: #2D9CDB;
-        padding: $padding;
+        padding: calc(#{$padding} / 2);
         border-radius: 10px;
     }
 
-  .edie__secondsection__anchore--chevron {
-      background-color: #27AE60;
-      padding: $padding;
-      border-radius: 10px;
+
+  .edie__secondsection__svg--chevron {
+       background-color: #27AE60;
+       padding: $padding;
+       border-radius: 10px;
+       width: 10px;
   }
 
-  .edie__secondsection__anchore--menu {
-      background-color: #EB5757;
-      padding: $padding;
-      border-radius: 10px;
+
+  .edie__secondsection__svg--menu {
+       background-color: #EB5757;
+       padding: calc(#{$padding} / 2);
+       border-radius: 10px;
   }

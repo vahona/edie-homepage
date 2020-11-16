@@ -1,0 +1,52 @@
+
+.edie__secondsection {
+   
+
+    &__title {
+       @include combinationfont;
+       margin: calc(#{$margin} + 0.5rem);
+    }
+
+    &__desing, &__frontend, &__backend {
+      background-color: white;
+      padding: $padding;
+      border-radius: 10px;
+      margin: $margin;
+
+      &--startnbtn {
+        border: none;
+        background-color:  #E0E0E0;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 5px;
+      }
+
+      &--subtitle {
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+   
+    &--moreInfo {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    }
+
+    &__desing:hover, &__backend:hover, &__frontend:hover {
+        box-shadow:  1px 5px 5px  10px rgb(206, 205, 205);
+         &--startnbtn {
+             background-color: #2D9CDB;
+             color:#ffff;
+         }
+    }
+
+
+
+}
+
