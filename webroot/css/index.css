@@ -63,6 +63,19 @@ body {
   height: 100%;
   border-radius: 10px; }
 
+.edie__fourthsection__laidback--persone1__image,
+.edie__fourthsection__laidback--persone2__image,
+.edie__fourthsection__laidback--persone3__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; }
+
+.edie__fourthsection__talented--carlos__image {
+  width: 100%;
+  border-radius: 10px;
+  margin-inline-start: 1rem;
+  float: left; }
+
 .edie__title {
   font-weight: 800;
   font-size: 24px;
@@ -200,3 +213,94 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px; }
+
+.edie__fourthsection__laidback--subtitle {
+  color: #EB5757;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-inline-start: 1rem; }
+
+.edie__fourthsection__laidback--title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin-inline-start: 1rem; }
+
+.edie__fourthsection__laidback--moreInfo {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-inline-start: 1rem; }
+
+.edie__fourthsection__talented--title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-inline-start: 1rem; }
+
+.edie__fourthsection__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.edie__fourthsection__laidback--persone1 {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 1rem; }
+
+.edie__fourthsection__laidback--persone2 {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 1rem; }
+
+.edie__fourthsection__laidback--persone3 {
+  grid-column: 1;
+  grid-row: inherit;
+  margin: 1rem;
+  grid-template-rows: 1fr; }
+
+.edie__fourthsection__talented--container {
+  columns: 2; }
+
+.edie__fourthsection__talented--carlos {
+  margin-right: 1rem; }
+
+.edie__fourthsection__talented--carlos__name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px; }
+
+.edie__fourthsection__talented--carlos__profetion {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #828282; }
+
+.edei__footer {
+  background-color: #100E1D; }
+  .edei__footer__navigation {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    padding-top: 1rem; }
+  .edei__footer__list {
+    list-style: none; }
+  .edei__footer__list--anchore {
+    color: #ffff;
+    text-decoration: none; }
+  .edei__footer__links--logo {
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53.88px;
+    color: #F2F2F2; }

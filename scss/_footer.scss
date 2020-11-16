@@ -1,0 +1,31 @@
+.edei__footer {
+    background-color: #100E1D;
+
+    &__navigation {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+        padding-top: $padding-top;
+       
+    }
+    &__list {
+      list-style: $list-style;
+    }
+
+    &__list--anchore {
+         color: #ffff;
+         text-decoration: $text-decoration;
+    }
+
+    &__links--logo {
+        font-family: Heebo;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 53.88px;
+        color: #F2F2F2;
+    }
+}
+
+
+

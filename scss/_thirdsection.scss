@@ -27,10 +27,7 @@
     &__seemore {
         text-decoration: $text-decoration;
         color: #2D9CDB;
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
+       @include otherfont
         
     }
 
