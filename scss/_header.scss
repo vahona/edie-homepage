@@ -2,6 +2,7 @@
 .edie__title {
     @include font;
     font-family: Heebo;
+    margin-block-start: 0;
     margin: $margin;
     padding-top: $padding-top;
 }

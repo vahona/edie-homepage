@@ -29,11 +29,13 @@ body {
   background-color: #ffffff;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  padding: 0;
   margin: 0; }
 
+footer {
+  padding: 1.5rem; }
+
 .edie__firstsection__heloImage--picture_image {
-  width: 100%;
+  width: 120%;
   border-radius: 20px;
   height: 200%;
   margin-inline-start: calc(1rem * -2);
@@ -81,6 +83,7 @@ body {
   font-size: 24px;
   line-height: 35px;
   font-family: Heebo;
+  margin-block-start: 0;
   margin: 1rem;
   padding-top: 1rem; }
 
@@ -145,8 +148,6 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     font-size: 12px;
     line-height: 18px;
     font-family: Poppins; }
-  .edie__firstsection__heloImage {
-    margin-inline-end: calc(1rem * -4); }
   .edie__firstsection--title {
     font-family: Poppins;
     font-style: normal;
@@ -167,10 +168,12 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
-    line-height: 21px; }
+    line-height: 21px;
+    color: #828282; }
 
 .edie__firstsection__form {
-  position: relative; }
+  position: relative;
+  padding-top: 105px; }
 
 .edie__firstsection__join {
   position: absolute;
@@ -178,7 +181,7 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   right: 0px;
   z-index: 2;
   border: none;
-  top: 8px;
+  top: 130px;
   height: 30px;
   cursor: pointer;
   color: white;
@@ -194,7 +197,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   outline: none;
   height: 40px;
   border-radius: 5px;
-  background-color: #F2F2F2; }
+  background-color: #F2F2F2;
+  border: none; }
 
 .edie__secondsection__title {
   font-family: Poppins;
