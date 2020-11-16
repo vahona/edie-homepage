@@ -1,0 +1,67 @@
+
+.edie__firstsection {
+
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  //  calc(#{$padding-inline-start} * 3);
+    &--anchore {
+      text-decoration: $text-decoration;
+      color: #2D9CDB;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      font-family: Poppins;
+    }
+
+    &__heloImage {
+      margin-inline-end: calc(#{$padding-inline-start} * -4);
+    }
+
+    &--title {
+      @include combinationfont
+    }
+
+
+    &__story--title {
+      font-family: Poppins ;
+      font-weight: 500;
+      font-size: 35px;
+      line-height:72px;
+    }
+
+    &__help {
+      font-family: Poppins;
+      font-weight: 400; 
+      font-size: 18px;
+      line-height: 27px;
+
+    }
+
+    &__label {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+
+    }
+
+    &__join {
+      width: 91px;
+      height: 40px;
+      background: #2D9CDB;
+      border-radius: 12px;
+      border: none;
+      margin-inline-start: calc(#{$padding-inline-start} * -1);
+    }
+
+    &__input {
+      width: 200px;
+      height: 40px;
+      background: #F2F2F2;
+      border-radius: 12px;
+      border: none;
+    }
+
+  
+}
+

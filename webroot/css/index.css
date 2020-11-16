@@ -29,10 +29,15 @@ body {
   background-color: #ffffff;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  width: 1442px;
-  height: 385px;
   padding: 0;
   margin: 0; }
+
+.edie__firstsection__heloImage--picture_image {
+  width: 100%;
+  border-radius: 20px;
+  height: 200%;
+  margin-inline-start: calc(1rem * -2);
+  margin-inline-end: calc(1rem * -4); }
 
 .edie__title {
   font-weight: 800;
@@ -55,3 +60,50 @@ body {
 
 .bar {
   width: 20px; }
+
+.edie__firstsection {
+  margin-inline-start: 10%;
+  margin-inline-end: 10%; }
+  .edie__firstsection--anchore {
+    text-decoration: none;
+    color: #2D9CDB;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Poppins; }
+  .edie__firstsection__heloImage {
+    margin-inline-end: calc(1rem * -4); }
+  .edie__firstsection--title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px; }
+  .edie__firstsection__story--title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 72px; }
+  .edie__firstsection__help {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px; }
+  .edie__firstsection__label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; }
+  .edie__firstsection__join {
+    width: 91px;
+    height: 40px;
+    background: #2D9CDB;
+    border-radius: 12px;
+    border: none;
+    margin-inline-start: calc(1rem * -1); }
+  .edie__firstsection__input {
+    width: 200px;
+    height: 40px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    border: none; }
