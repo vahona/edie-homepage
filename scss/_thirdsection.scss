@@ -1,4 +1,5 @@
 .edie__thirdsection {
+    position: relative;
     &__title {
         @include combinationfont;
         margin-inline-start: $margin-inline-start;

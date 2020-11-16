@@ -250,39 +250,40 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     background-color: #2D9CDB;
     color: #ffff; }
 
-.edie__thirdsection__title {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  margin-inline-start: 1rem; }
-
-.edie__thirdsection__dashboard, .edie__thirdsection__onboard, .edie__thirdsection__booking, .edie__thirdsection__juice {
-  margin: 1rem; }
-  .edie__thirdsection__dashboard--application, .edie__thirdsection__onboard--application, .edie__thirdsection__booking--application, .edie__thirdsection__juice--application {
+.edie__thirdsection {
+  position: relative; }
+  .edie__thirdsection__title {
     font-family: Poppins;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 300;
-    color: #828282; }
-  .edie__thirdsection__dashboard--moreInfo, .edie__thirdsection__onboard--moreInfo, .edie__thirdsection__booking--moreInfo, .edie__thirdsection__juice--moreInfo {
-    font-family: Poppins;
+    font-style: normal;
     font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-inline-start: 1rem; }
+  .edie__thirdsection__dashboard, .edie__thirdsection__onboard, .edie__thirdsection__booking, .edie__thirdsection__juice {
+    margin: 1rem; }
+    .edie__thirdsection__dashboard--application, .edie__thirdsection__onboard--application, .edie__thirdsection__booking--application, .edie__thirdsection__juice--application {
+      font-family: Poppins;
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 300;
+      color: #828282; }
+    .edie__thirdsection__dashboard--moreInfo, .edie__thirdsection__onboard--moreInfo, .edie__thirdsection__booking--moreInfo, .edie__thirdsection__juice--moreInfo {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #333333; }
+  .edie__thirdsection__seemore {
+    text-decoration: none;
+    color: #2D9CDB;
+    font-family: Poppins;
     font-size: 18px;
-    line-height: 27px;
-    color: #333333; }
-
-.edie__thirdsection__seemore {
-  text-decoration: none;
-  color: #2D9CDB;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 27px; }
+    font-weight: 500;
+    line-height: 27px; }
 
 .edie__fourthsection {
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  position: relative; }
   .edie__fourthsection__laidback--subtitle {
     color: #EB5757;
     font-family: Poppins;
@@ -318,18 +319,21 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
 .edie__fourthsection__laidback--persone1 {
   grid-column: 2;
   grid-row: 1;
-  margin: 1rem; }
+  margin: 1rem;
+  margin-top: 4rem; }
 
 .edie__fourthsection__laidback--persone2 {
   grid-column: 2;
   grid-row: 2;
-  margin: 1rem; }
+  margin: 1rem;
+  margin-bottom: 4rem; }
 
 .edie__fourthsection__laidback--persone3 {
   grid-column: 1;
-  grid-row: inherit;
+  grid-row: 1 / span 2;
   margin: 1rem;
-  grid-template-rows: 1fr; }
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
 
 .edie__fourthsection__talented--container {
   columns: 2; }
@@ -342,7 +346,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 36px; }
+  line-height: 36px;
+  margin-left: 0; }
 
 .edie__fourthsection__talented--carlos__profetion {
   font-family: Poppins;
@@ -350,6 +355,10 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   font-weight: 500;
   line-height: 27px;
   color: #828282; }
+
+.edie__fourthsection__talented--carlos__name,
+.edie__fourthsection__talented--carlos__profetion {
+  bottom: 1rem; }
 
 .edei__footer {
   background-color: #100E1D; }
