@@ -1,0 +1,39 @@
+.edie__thirdsection {
+    &__title {
+        @include combinationfont;
+        margin-inline-start: $margin-inline-start;
+    }
+
+    &__dashboard, &__onboard, &__booking, &__juice {
+        margin: $margin;
+
+        &--application {
+          font-family: Poppins;
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 300;
+          color: #828282;
+        }
+
+        &--moreInfo {
+           font-family: Poppins;
+           font-weight: 500;
+           font-size: 18px;
+           line-height: 27px;
+           color: #333333;
+        }
+    }
+
+    &__seemore {
+        text-decoration: $text-decoration;
+        color: #2D9CDB;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        
+    }
+
+
+}
+
