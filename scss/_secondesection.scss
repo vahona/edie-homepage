@@ -5,6 +5,10 @@
     &__title {
        @include combinationfont;
        margin: calc(#{$margin} + 0.5rem);
+       margin-inline-start: calc(#{$margin-inline-start} * 2);
+       width: 50%;
+       padding: calc(#{$padding} * 3);
+       padding-left: 0;
     }
 
     &__desing, &__frontend, &__backend {
@@ -35,7 +39,7 @@
     }
     }
 
-    &__desing:hover, &__backend:hover, &__frontend:hover {
+    &__desing:hover, &__backend:hover, &__frontend:hover + &--startnbtn  {
         box-shadow:  1px 5px 5px  10px rgb(206, 205, 205);
          &--startnbtn {
              background-color: #2D9CDB;

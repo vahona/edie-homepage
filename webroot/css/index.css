@@ -200,13 +200,25 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   background-color: #F2F2F2;
   border: none; }
 
+.edie__firstsection__input::placeholder {
+  padding: 1rem;
+  color: #BDBDBD;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px; }
+
 .edie__secondsection__title {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  margin: calc(1rem + 0.5rem); }
+  margin: calc(1rem + 0.5rem);
+  margin-inline-start: calc(1rem * 2);
+  width: 50%;
+  padding: calc(1rem * 3);
+  padding-left: 0; }
 
 .edie__secondsection__desing, .edie__secondsection__frontend, .edie__secondsection__backend {
   background-color: white;
@@ -232,9 +244,9 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     font-size: 16px;
     line-height: 24px; }
 
-.edie__secondsection__desing:hover, .edie__secondsection__backend:hover, .edie__secondsection__frontend:hover {
+.edie__secondsection__desing:hover, .edie__secondsection__backend:hover, .edie__secondsection__frontend:hover + .edie__secondsection--startnbtn {
   box-shadow: 1px 5px 5px 10px #cecdcd; }
-  .edie__secondsection__desing:hover--startnbtn, .edie__secondsection__backend:hover--startnbtn, .edie__secondsection__frontend:hover--startnbtn {
+  .edie__secondsection__desing:hover--startnbtn, .edie__secondsection__backend:hover--startnbtn, .edie__secondsection__frontend:hover + .edie__secondsection--startnbtn--startnbtn {
     background-color: #2D9CDB;
     color: #ffff; }
 
@@ -436,3 +448,11 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
 
 .edei__footer__container {
   margin-inline-start: calc(1rem * 2); }
+
+.edei__footer__input::placeholder {
+  padding: 1rem;
+  color: #BDBDBD;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px; }

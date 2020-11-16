@@ -82,3 +82,13 @@
         border: none;
     }
 
+     .edie__firstsection__input::placeholder {
+      padding: $padding;
+      color: #BDBDBD;
+      font-family:Poppins;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      
+  }
+
