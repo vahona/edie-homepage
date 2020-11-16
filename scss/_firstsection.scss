@@ -37,6 +37,7 @@
 
     }
 
+
     &__label {
       font-family: Poppins;
       font-weight: 500;
@@ -45,23 +46,36 @@
 
     }
 
-    &__join {
-      width: 91px;
-      height: 40px;
-      background: #2D9CDB;
-      border-radius: 12px;
-      border: none;
-      margin-inline-start: calc(#{$padding-inline-start} * -1);
-    }
-
-    &__input {
-      width: 200px;
-      height: 40px;
-      background: #F2F2F2;
-      border-radius: 12px;
-      border: none;
-    }
-
-  
 }
+
+
+    .edie__firstsection__form {
+      position: relative;
+    }
+
+    .edie__firstsection__join {
+        position: absolute; 
+        border-radius: 5px; 
+        right: 0px; 
+        z-index: 2; 
+        border: none; 
+        top: 8px; 
+        height: 30px; 
+        cursor: pointer; 
+        color: white; 
+        background-color: #1e90ff; 
+        transform: translateX(2px); 
+        right: 9px;
+        width: 48px;
+    }
+
+    .edie__firstsection__input {
+        margin: 0px; 
+        padding: 0px; 
+        width: 100%; 
+        outline: none; 
+        height: 40px; 
+        border-radius: 5px;  
+        background-color:  #F2F2F2;;
+    }
 

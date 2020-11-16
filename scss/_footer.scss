@@ -25,7 +25,119 @@
         line-height: 53.88px;
         color: #F2F2F2;
     }
+
+    &__links--list {
+        list-style: $list-style;
+    }
+
+    &__bottom {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17.07px;
+        color: #A9A9A9;
+        padding-top: calc(#{$padding-top} * 6);
+    } 
+
+     &__label {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+        color: #828282;
+    }
+
+   
 }
+
+.edei__footer__form {
+    position: relative;
+    // margin: $margin;
+}
+
+.edei__footer__input {
+        margin: 0px; 
+        padding: 0px; 
+        width: 100%; 
+        outline: none; 
+        height: 40px; 
+        border-radius: 10px;  
+        background-color:  #F2F2F2;
+        margin-right: $margin-right;
+}
+
+.edei__footer__btn {
+        position: absolute; 
+        border-radius: 5px; 
+        right: 0px; 
+        z-index: 2; 
+        border: none; 
+        top: 25px; 
+        height: 30px; 
+        cursor: pointer; 
+        color: white; 
+        background-color: #1e90ff; 
+        transform: translateX(2px); 
+        right: 9px;
+        width: 48px;
+
+}
+
+
+.instagram {
+  background-image: url('../images/icons/instagram.svg');
+  background-repeat: no-repeat;
+  padding: $padding;
+  padding-right: 0;
+  margin-right: calc(#{$margin-right} * -1);
+  
+  
+}
+
+.in {
+  background-image: url('../images/icons/linkedin.svg');
+  background-repeat: no-repeat;
+   padding: $padding;
+
+}
+
+
+.twitter {
+  background-image: url('../images/icons/twitter.svg');
+  background-repeat: no-repeat;
+  padding: $padding;
+ 
+
+ }
+
+  .edei__footer__links--anchore {
+    color: transparent;
+
+  }
+
+  .edei__footer__container {
+
+  }
+
+  .edei__footer__links--lists {
+      padding-inline-start: 0;
+  }
+
+  .edei__footer__navigation--lists {
+      padding-inline-start: 0;
+  }
+
+  .edei__footer__links--lists {
+      display: flex; 
+  }
+
+  .edei__footer__links--list {
+      margin-left: 0;
+  }
+
+  .edei__footer__container {
+      margin-inline-start: calc(#{$margin-inline-start} * 2);
+  }
 
 
 
