@@ -39,6 +39,21 @@ body {
   margin-inline-start: calc(1rem * -2);
   margin-inline-end: calc(1rem * -4); }
 
+.edie__secondsection__anchore--edit {
+  background-color: #2D9CDB;
+  padding: 1rem;
+  border-radius: 10px; }
+
+.edie__secondsection__anchore--chevron {
+  background-color: #27AE60;
+  padding: 1rem;
+  border-radius: 10px; }
+
+.edie__secondsection__anchore--menu {
+  background-color: #EB5757;
+  padding: 1rem;
+  border-radius: 10px; }
+
 .edie__title {
   font-weight: 800;
   font-size: 24px;
