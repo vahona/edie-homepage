@@ -2,18 +2,21 @@
 .edie__title {
     @include font;
     font-family: Heebo;
+    margin: $margin;
+    padding-top: $padding-top;
 }
 
 
 .edie__list {
    list-style: $list-style;
-   display: flex;
+  //  display: flex;
+   
    
    
 
    &__anchore {
     text-decoration: $text-decoration;
-    color: $color;
+    color: white;
     @include combinationfont;
     margin: $margin;
   }
@@ -21,7 +24,50 @@
 
 }
 
+.edie {
+  position: relative;
+}
+
 .bar {
     width: 20px;
+    position: absolute;
+    right: $right;
+    top: $top;
 }
+
+.edie-checkbox {
+  position: absolute;
+  top: 0;
+  right: 0.35rem;
+  zoom: 2;
+  opacity: 0;
+}
+
+.edie__navigation {
+  background-color: black;
+  color: white;
+  box-shadow:  1px 5px 5px  10px rgb(206, 205, 205);
+  width: 200px;
+  margin-inline-start: $margin-inline-start;
+  padding: $padding;
+  border-radius: 20px;
+  position: fixed;
+  left: -200px;
+  
+}
+
+input[type=checkbox]:checked + .edie__navigation {
+  transform: translateX(50%);
+  transition: all 0.5s ease;
+  left: -100px;
+  z-index: 2;
+  margin-inline-start: $margin-inline-start;
+}
+
+input[type=checkbox]:not(:checked) + .edie__navigation {
+  transform: translateX(-110%);
+  transition: all 0.5s ease-out;
+  left: -100px;
+}
+
 

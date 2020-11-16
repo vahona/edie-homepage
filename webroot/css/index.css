@@ -80,14 +80,15 @@ body {
   font-weight: 800;
   font-size: 24px;
   line-height: 35px;
-  font-family: Heebo; }
+  font-family: Heebo;
+  margin: 1rem;
+  padding-top: 1rem; }
 
 .edie__list {
-  list-style: none;
-  display: flex; }
+  list-style: none; }
   .edie__list__anchore {
     text-decoration: none;
-    color: rgba(14, 13, 13, 0.624);
+    color: white;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -95,8 +96,44 @@ body {
     line-height: 36px;
     margin: 1rem; }
 
+.edie {
+  position: relative; }
+
 .bar {
-  width: 20px; }
+  width: 20px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem; }
+
+.edie-checkbox {
+  position: absolute;
+  top: 0;
+  right: 0.35rem;
+  zoom: 2;
+  opacity: 0; }
+
+.edie__navigation {
+  background-color: black;
+  color: white;
+  box-shadow: 1px 5px 5px 10px #cecdcd;
+  width: 200px;
+  margin-inline-start: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  position: fixed;
+  left: -200px; }
+
+input[type=checkbox]:checked + .edie__navigation {
+  transform: translateX(50%);
+  transition: all 0.5s ease;
+  left: -100px;
+  z-index: 2;
+  margin-inline-start: 1rem; }
+
+input[type=checkbox]:not(:checked) + .edie__navigation {
+  transform: translateX(-110%);
+  transition: all 0.5s ease-out;
+  left: -100px; }
 
 .edie__firstsection {
   margin-inline-start: 10%;
