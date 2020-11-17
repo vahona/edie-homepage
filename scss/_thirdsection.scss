@@ -35,3 +35,15 @@
 
 }
 
+@media (min-width: 1000px) {
+   .edie__thirdsection {
+       margin-inline-start: 165px;
+       margin-inline-end: 165px;
+   }
+
+    .edie__thirdsection__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+

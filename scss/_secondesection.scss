@@ -55,3 +55,18 @@
 
 }
 
+ @media (min-width: 1000px) {
+
+  .edie__secondsection {
+    margin-inline-start: 165px;
+    margin-inline-end: 165px;
+  }
+   .edie__secondsection__container {
+     display: flex;
+   }
+
+   .edie__secondsection__title {
+      width: 260px ;
+   }
+ }
+
