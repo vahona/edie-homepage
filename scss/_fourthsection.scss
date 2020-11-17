@@ -98,6 +98,16 @@
       margin-inline-end: 165px;
       margin-inline-start: 165px;
     }
+
+    .edie__fourthsection__laidback--part {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .edie__fourthsection__laidback--title,
+    .edie__fourthsection__laidback--moreInfo {
+      grid-column: 1;
+    }
   }
 
 
