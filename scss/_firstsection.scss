@@ -2,8 +2,7 @@
 .edie__firstsection {
 
   margin-inline-start: 10%;
-  margin-inline-end: 10%;
-  //  calc(#{$padding-inline-start} * 3);
+
     &--anchore {
       text-decoration: $text-decoration;
       color: #2D9CDB;
@@ -13,9 +12,6 @@
       font-family: Poppins;
     }
 
-    &__heloImage {
-      // margin-inline-end: calc(#{$padding-inline-start} * -4);
-    }
 
     &--title {
       @include combinationfont
@@ -93,6 +89,8 @@
   }
 
   @media (min-width: 1000px) {
-    
+       .edie__firstsection__story {
+         width: 30%;
+       }
   }
 

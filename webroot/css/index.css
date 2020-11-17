@@ -37,10 +37,10 @@ footer {
   padding: 1.5rem; }
 
 .edie__firstsection__heloImage--picture_image {
-  width: 100%;
+  width: 107%;
   border-radius: 20px;
   height: 200%;
-  margin-inline-start: calc(1rem * -2);
+  margin-inline-start: calc(1rem * -7);
   margin-inline-end: calc(1rem * -4); }
 
 .edie__secondsection__svg--edit {
@@ -154,7 +154,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     display: flex;
     box-shadow: none;
     top: 0;
-    margin-inline-start: 40%; }
+    margin-inline-start: 40%;
+    position: relative; }
   input[type=checkbox]:checked + .edie__navigation {
     transform: translateX(50%);
     transition: none;
@@ -171,8 +172,7 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     left: 0; } }
 
 .edie__firstsection {
-  margin-inline-start: 10%;
-  margin-inline-end: 10%; }
+  margin-inline-start: 10%; }
   .edie__firstsection--anchore {
     text-decoration: none;
     color: #2D9CDB;
@@ -239,6 +239,10 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px; }
+
+@media (min-width: 1000px) {
+  .edie__firstsection__story {
+    width: 30%; } }
 
 .edie__secondsection__title {
   font-family: Poppins;
