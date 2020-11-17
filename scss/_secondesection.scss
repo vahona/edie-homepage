@@ -25,6 +25,7 @@
         font-size: 16px;
         line-height: 24px;
         border-radius: 5px;
+        padding: calc(#{$padding} / 2);
       }
 
       &--subtitle {
@@ -39,14 +40,17 @@
     }
     }
 
-    &__desing:hover, &__backend:hover, &__frontend:hover + &--startnbtn  {
+    &__desing:hover, &__backend:hover, &__frontend:hover {
         box-shadow:  1px 5px 5px  10px rgb(206, 205, 205);
-         &--startnbtn {
-             background-color: #2D9CDB;
-             color:#ffff;
-         }
+        
     }
 
+    &__desing:hover &__desing--startnbtn,
+    &__backend:hover &__backend--startnbtn, 
+    &__frontend:hover &__frontend--startnbtn {
+        background-color: #2D9CDB;
+        color: white;
+    }
 
 
 }

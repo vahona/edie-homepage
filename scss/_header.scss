@@ -10,7 +10,6 @@
 
 .edie__list {
    list-style: $list-style;
-  //  display: flex;
    
    
    
@@ -71,4 +70,51 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   left: -100px;
 }
 
+
+@media (min-width: 1000px) {
+  .bar {
+    display: none;
+  }
+
+  .edie-checkbox  {
+    display: none;
+  }
+
+
+  .edie__navigation {
+    background-color: transparent;
+    color: #333333;
+    width: 200px;
+    margin-inline-start: $margin-inline-start;
+    padding: $padding;
+    display: flex;
+    box-shadow: none;
+    top: 0;
+    margin-inline-start: 40%;
+  
+  }
+
+  input[type=checkbox]:checked + .edie__navigation {
+    transform: translateX(50%);
+    transition: none;
+    left: 0;
+    z-index: 2;
+    margin-inline-start: $margin-inline-start;
+  }
+
+  .edie__list__anchore {
+    color:  #333333;
+  }
+
+  .edie__list {
+    display: flex;
+  }
+
+  input[type=checkbox]:not(:checked) + .edie__navigation {
+    transform: translateX(0%);
+    transition: none;
+    left: 0;
+  }
+  
+}
 
