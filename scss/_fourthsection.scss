@@ -12,7 +12,7 @@
         &--title {
            font-family: Poppins;
            font-weight: 500;
-           font-size: 36px;
+           font-size: 30px;
            line-height: 54px;
            margin-inline-start: $margin-inline-start;
         }
@@ -39,11 +39,16 @@
        
     }
 
+    .edie__fourthsection__laidback--elit {
+      margin-top: calc(#{$margin-top} * 10);
+
+    }
+
   .edie__fourthsection__laidback--persone1 {
       grid-column: 2;
       grid-row: 1;
       margin: $margin;
-      margin-top: 4rem;
+      margin-top: 10rem;
       // margin-bottom: 2rem;
   }
 
@@ -52,15 +57,15 @@
        grid-row: 2;
        margin: $margin;
       //  margin-top: 2rem;
-       margin-bottom: 4rem;
+       margin-bottom: 11rem;
    }
 
   .edie__fourthsection__laidback--persone3 {
       grid-column: 1 ;
       grid-row: 1 / span 2;
       margin: $margin;
-      margin-top: 10rem;
-      margin-bottom: 10rem;
+      margin-top: 16rem;
+      margin-bottom: 16rem;
 
       
   }
@@ -70,14 +75,13 @@
   }
 
   .edie__fourthsection__talented--carlos {
-    margin-right: $margin-right;
-    
+    margin-left: $margin-left;
+
   }
 
   .edie__fourthsection__talented--carlos__name {
       @include combinationfont;
-      margin-left: 0;
-     
+      
   }
 
 
@@ -97,6 +101,15 @@
     .edie__fourthsection {
       margin-inline-end: 165px;
       margin-inline-start: 165px;
+    }
+
+     .edie__fourthsection__talented--title {
+       width: 600px;
+  }
+
+   .edie__fourthsection__laidback--elit {
+      // margin-top: calc(#{$margin-top} * 10);
+      width: 280px;
     }
 
     .edie__fourthsection__laidback--part {
