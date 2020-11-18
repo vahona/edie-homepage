@@ -429,7 +429,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     grid-template-columns: repeat(2, 1fr); }
   .edie__fourthsection__laidback--title,
   .edie__fourthsection__laidback--moreInfo {
-    grid-column: 1; } }
+    grid-column: 1;
+    top: 2rem; } }
 
 .edei__footer {
   background-color: #100E1D; }
@@ -540,4 +541,12 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
 @media (min-width: 1000px) {
   .edei__footer__container {
     margin-inline-end: 165px;
+    margin-inline-start: 165px;
+    display: flex; }
+  .edei__footer__links {
+    margin-left: calc(1rem * 10); }
+  .edei__footer__form {
+    margin-left: calc(1rem * 5);
+    margin-block-start: calc(1rem * 2.5); }
+  .edei__footer__bottom {
     margin-inline-start: 165px; } }

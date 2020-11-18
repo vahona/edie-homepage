@@ -153,6 +153,22 @@
       .edei__footer__container {
           margin-inline-end: 165px;
           margin-inline-start: 165px;
+          display: flex;
+          
+      }
+
+
+      .edei__footer__links {
+        margin-left: calc(#{$margin-left} * 10);
+      }
+
+      .edei__footer__form {
+        margin-left: calc(#{$margin-left} * 5);
+        margin-block-start: calc(#{$margin-block-start} * 2.5);
+      }
+
+      .edei__footer__bottom {
+          margin-inline-start: 165px;
       }
   }
 
