@@ -39,7 +39,7 @@
         padding-top: calc(#{$padding-top} * 6);
     } 
 
-     &__label {
+    &__label {
         font-family: Poppins;
         font-weight: 500;
         font-size: 10px;
@@ -47,15 +47,39 @@
         color: #828282;
     }
 
-   
-}
 
-.edei__footer__form {
+    &__links--anchore {
+        color: transparent;
+
+    }
+
+
+    &__links--lists {
+        padding-inline-start: 0;
+    }
+
+    &__navigation--lists {
+        padding-inline-start: 0;
+    }
+
+    &__links--lists {
+        display: flex; 
+    }
+
+    &__links--list {
+        margin-left: 0;
+    }
+
+    &__container {
+        margin-inline-start: calc(#{$margin-inline-start} * 2);
+    }
+
+    &__form {
     position: relative;
-    // margin: $margin;
-}
 
-.edei__footer__input {
+    }
+
+    &__input {
         margin: 0px; 
         padding: 0px; 
         width: 100%; 
@@ -64,9 +88,9 @@
         border-radius: 10px;  
         background-color:  #F2F2F2;
         margin-right: $margin-right;
-}
+    }
 
-.edei__footer__btn {
+    &__btn {
         position: absolute; 
         border-radius: 5px; 
         right: 0px; 
@@ -80,6 +104,8 @@
         transform: translateX(2px); 
         right: 9px;
         width: 48px;
+
+    }
 
 }
 
@@ -110,34 +136,6 @@
 
  }
 
-  .edei__footer__links--anchore {
-    color: transparent;
-
-  }
-
-  .edei__footer__container {
-
-  }
-
-  .edei__footer__links--lists {
-      padding-inline-start: 0;
-  }
-
-  .edei__footer__navigation--lists {
-      padding-inline-start: 0;
-  }
-
-  .edei__footer__links--lists {
-      display: flex; 
-  }
-
-  .edei__footer__links--list {
-      margin-left: 0;
-  }
-
-  .edei__footer__container {
-      margin-inline-start: calc(#{$margin-inline-start} * 2);
-  }
 
   .edei__footer__input::placeholder {
       padding: $padding;
@@ -150,7 +148,10 @@
   }
 
   @media (min-width: 1000px)  {
-      .edei__footer__container {
+
+     .edei__footer {
+
+      &__container {
           margin-inline-end: 165px;
           margin-inline-start: 165px;
           display: flex;
@@ -158,18 +159,19 @@
       }
 
 
-      .edei__footer__links {
+      &__links {
         margin-left: calc(#{$margin-left} * 10);
       }
 
-      .edei__footer__form {
+      &__form {
         margin-left: calc(#{$margin-left} * 5);
         margin-block-start: calc(#{$margin-block-start} * 2.5);
       }
 
-      .edei__footer__bottom {
+      &__bottom {
           margin-inline-start: 165px;
       }
+    }
   }
 
 
