@@ -1,8 +1,8 @@
     .edie__firstsection__heloImage--picture_image {
-      width: 107%;
+      width: 100%;
       border-radius: 20px;
       height: 200%;
-       margin-inline-start: calc(#{$padding-inline-start}  * -2);
+       margin-inline-start: calc(#{$padding-inline-start}  * -1);
        margin-inline-end: calc(#{$padding-inline-end} * -4);
     }
 
@@ -67,6 +67,12 @@
   @media (min-width: 1000px)  {
     .edie__fourthsection__talented--carlos__image {
       width: 25%;
+    }
+
+
+    .edie__firstsection__heloImage--picture_image {
+      margin-inline-start: calc(#{$padding-inline-start}  * -5);
+      margin-inline-end: calc(#{$padding-inline-end} * -4);
     }
 
 
