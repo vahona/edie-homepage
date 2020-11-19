@@ -149,6 +149,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
 @media (min-width: 1000px) {
   .bar {
     display: none; }
+  .edie__firstsection--title {
+    width: 290px; }
   .edie-checkbox {
     display: none; }
   .edie__title {
