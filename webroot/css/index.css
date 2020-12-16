@@ -76,15 +76,15 @@ footer {
   border-radius: 10px; }
 
 .edie__fourthsection__talented--carlos__image {
-  width: 75%;
+  width: 100%;
   border-radius: 10px;
   margin-inline-start: 1rem;
-  float: left;
   margin-right: 1rem; }
 
 @media (min-width: 1000px) {
   .edie__fourthsection__talented--carlos__image {
-    width: 25%; }
+    width: 100%;
+    margin-right: 1rem; }
   .edie__firstsection__heloImage--picture_image {
     margin-inline-start: calc(1rem  * -5);
     margin-inline-end: calc(1rem * -4); } }
@@ -398,7 +398,7 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr); }
   .edie__fourthsection__laidback--elit {
-    margin-top: calc(1rem * 10); }
+    margin-top: calc(1rem * 3); }
   .edie__fourthsection__laidback--persone1 {
     grid-column: 2;
     grid-row: 1;
@@ -439,7 +439,18 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
 
 .edie__fourthsection__talented--carlos__name,
 .edie__fourthsection__talented--carlos__profetion {
-  bottom: 1rem; }
+  margin: 0; }
+
+.edie__fourthsection__talented--carlos__name {
+  margin-bottom: 1rem; }
+
+.edie__fourthsection__talented--container {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-gap: 2rem; }
+
+.edie__fourthsection__talented--subcontainer {
+  margin-block-start: calc(1rem * 1); }
 
 @media (min-width: 1000px) {
   .edie__fourthsection {
@@ -454,7 +465,9 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
       grid-template-columns: repeat(2, 1fr); }
     .edie__fourthsection__laidback--title, .edie__fourthsection__laidback--moreInfo {
       grid-column: 1;
-      top: 2rem; } }
+      top: 2rem; }
+  .edie__fourthsection__talented--subcontainer {
+    margin-block-start: calc(1rem * 8.5); } }
 
 .edei__footer {
   background-color: #100E1D; }
