@@ -16,11 +16,11 @@
 
 @font-face {
   font-family: Heebo;
-  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Bold.woff") format(woff); }
+  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Bold.woff") format(woff), url("../webroot/fonts/AnyConv.com__Montserrat-Regular.woff2") format(woff2); }
 
 @font-face {
   font-family: Heebo;
-  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Regular.woff") format(woff); }
+  src: url("../webroot/fonts/fontsheebo_woof/Heebo-Regular.woff") format(woff), url("../webroot/fonts/fontsheebo_woof/Heebo-Bold.woff") format(woff2); }
 
 body {
   background-color: #ffffff;
@@ -45,6 +45,9 @@ footer {
   background-color: #2D9CDB;
   padding: calc(1rem / 2);
   border-radius: 10px; }
+
+.edie__thirdsection__seemore--svg {
+  height: 36px; }
 
 .edie__secondsection__svg--chevron {
   background-color: #27AE60;
@@ -336,12 +339,13 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   .edie__thirdsection__seemore--anchore {
     text-decoration: none;
     color: #2D9CDB;
+    display: flex;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px; }
   .edie__thirdsection__seemore {
-    margin-top: calc(1rem * 3);
+    margin-top: calc(1rem * 2);
     margin-inline-start: 1rem; }
   .edie__thirdsection__seemore--svg {
     margin-block-start: 1rem; }
@@ -410,8 +414,8 @@ input[type=checkbox]:not(:checked) + .edie__navigation {
   grid-column: 1;
   grid-row: 1 / span 2;
   margin: 1rem;
-  margin-top: 16rem;
-  margin-bottom: 16rem; }
+  margin-top: 18rem;
+  margin-bottom: 18rem; }
 
 .edie__fourthsection__talented--container {
   columns: 2; }

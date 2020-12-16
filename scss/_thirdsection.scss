@@ -28,13 +28,14 @@
     &__seemore--anchore {
         text-decoration: $text-decoration;
         color: #2D9CDB;
+        display: flex;
        @include otherfont;
        
         
     }
 
     &__seemore {
-        margin-top: calc(#{$margin-top} * 3);
+        margin-top: calc(#{$margin-top} * 2);
         margin-inline-start: $margin-inline-start;
     }
 
